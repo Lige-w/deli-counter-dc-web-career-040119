@@ -7,4 +7,6 @@ def line(people)
     phrase = "The line is currently:"
     puts people.each_with_index do |name, index|
       phrase << " #{index}. #{name}"
+    end
+  end
 end
