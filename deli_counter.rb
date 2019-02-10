@@ -21,6 +21,7 @@ def now_serving(people)
   if people == []
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{people.unshift}."
+    puts "Currently serving #{people[0]}."
+    people.unshift
   end
 end
