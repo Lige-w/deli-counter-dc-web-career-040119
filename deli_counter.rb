@@ -6,7 +6,7 @@ def line(people)
   else
     phrase = "The line is currently:"
     people.each_with_index do |name, index|
-      phrase << " #{index}. #{name}"
+      phrase << " #{index + 1}. #{name}"
     end
     puts phrase
   end
