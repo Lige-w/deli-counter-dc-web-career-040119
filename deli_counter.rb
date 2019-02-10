@@ -8,5 +8,6 @@ def line(people)
     puts people.each_with_index do |name, index|
       phrase << " #{index}. #{name}"
     end
+    phrase
   end
 end
