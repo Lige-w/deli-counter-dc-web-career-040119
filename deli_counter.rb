@@ -12,6 +12,4 @@ def line(people)
   end
 end
 
-def take_a_number(people, name)
-  people << name
-end
+def take_a_number(people, name) {people << name}
