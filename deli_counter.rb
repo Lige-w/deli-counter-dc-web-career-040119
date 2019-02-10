@@ -21,3 +21,4 @@ def now_serving(people)
   if people == []
     puts "The line is empty."
   end
+end
