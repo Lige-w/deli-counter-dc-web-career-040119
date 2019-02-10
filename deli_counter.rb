@@ -3,6 +3,6 @@
 def line(people)
   case people
   when []
-    puts "The line is empty."
+    puts "The line is currently empty."
   end
 end
