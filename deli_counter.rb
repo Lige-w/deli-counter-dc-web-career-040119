@@ -3,4 +3,6 @@
 def line
   case line
   when []
-    puts "The line is empty"
+    puts "The line is empty."
+  end
+end
